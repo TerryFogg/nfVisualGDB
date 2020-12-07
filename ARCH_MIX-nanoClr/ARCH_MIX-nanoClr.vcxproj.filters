@@ -1,0 +1,2021 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{39cc75cc-3881-456a-93c2-662bea40e0b1}</UniqueIdentifier>
+      <Extensions>vgdbsettings</Extensions>
+    </Filter>
+    <Filter Include="nf-interpreter">
+      <UniqueIdentifier>{ff1ae299-75ce-4b43-a926-8e5418f40bb0}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="nf-interpreter\Device-specific files">
+      <UniqueIdentifier>{9ee176fc-75bc-4926-bb4a-39ff069a72e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src">
+      <UniqueIdentifier>{5b8f12e5-f374-424b-b87e-43ed93b22161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR">
+      <UniqueIdentifier>{7a28a08b-29b0-4df2-9918-ce85f975a2ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core">
+      <UniqueIdentifier>{ddb0c3f9-6018-4092-8a51-dd945f541481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\WireProtocol">
+      <UniqueIdentifier>{f8ee4e50-e63b-4dec-83f0-376501c8b20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\HAL">
+      <UniqueIdentifier>{76d64616-615c-48c9-88a9-0f72773211f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\HAL\Include">
+      <UniqueIdentifier>{513ca9b1-4ff2-42d5-9309-432eec3a796f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL">
+      <UniqueIdentifier>{a6848056-b7f4-4ee2-9c3e-6dff3b83d17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\BlockStorage">
+      <UniqueIdentifier>{1942ea63-c9c9-4aa5-8f3e-0fe71ad3cf2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Include">
+      <UniqueIdentifier>{2f6b3354-2eda-4808-a0a0-ec46f7151669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS-Kernel">
+      <UniqueIdentifier>{f4fdfa70-0a7c-488c-be05-e103315a4db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS-Kernel\include">
+      <UniqueIdentifier>{1104df4a-31ee-460e-af11-8ed80a385859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS-Kernel\portable">
+      <UniqueIdentifier>{d6707c02-c093-4f13-887f-cd5ff71ff97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS-Kernel\portable\GCC">
+      <UniqueIdentifier>{b4790d1e-5fe5-42fe-8d5c-5defd70b40c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS-Kernel\portable\GCC\ARM_CM7">
+      <UniqueIdentifier>{5944d721-6ded-49ff-bea1-59b3d3d67969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1">
+      <UniqueIdentifier>{331d3914-5fd9-47e0-b473-6947fe30f7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreeRTOS-Kernel\portable\MemMang">
+      <UniqueIdentifier>{dfc2f488-f7ed-44d7-8997-8cf525f003bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{5c2d8020-6676-4c50-8722-50c1af73f4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS">
+      <UniqueIdentifier>{4532a54a-b6d8-44f9-9396-c65c72066677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets">
+      <UniqueIdentifier>{ce19880c-dea9-44b4-9010-501b067f78f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS\Core">
+      <UniqueIdentifier>{e7c85ac3-f16f-48ed-ba8c-ea9f9dee7956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMSIS\Core\include">
+      <UniqueIdentifier>{a005ff2e-1d96-4692-b465-d6cdf18120b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Include">
+      <UniqueIdentifier>{91f7d84b-5d9c-496f-8713-3d1ec771c912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Debugger">
+      <UniqueIdentifier>{18dafe1a-7241-4e3d-b05c-cd4364d3b317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fatfs">
+      <UniqueIdentifier>{06b28680-b00a-4d5b-adc4-1410d5e044f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fatfs\Source">
+      <UniqueIdentifier>{993f0d6f-953f-415f-98cd-04135d256139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip">
+      <UniqueIdentifier>{55f7ec33-7fc7-4404-9796-6d634311f6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src">
+      <UniqueIdentifier>{d7a17d95-315b-43e8-9a0a-ef1d6fa18d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\core">
+      <UniqueIdentifier>{f0e099c7-63c2-47f0-bea7-444d3bd2f9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\core\ipv4">
+      <UniqueIdentifier>{daa25047-ccf3-4234-8133-5aa6fd0ebefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\core\ipv6">
+      <UniqueIdentifier>{a980e4db-1c9c-4199-a000-ba0e23a7ab3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\api">
+      <UniqueIdentifier>{f009658d-2709-4afa-9087-e986205414ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\apps">
+      <UniqueIdentifier>{b1b7cf24-c454-4f96-b684-892e17f4777b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\apps\sntp">
+      <UniqueIdentifier>{f836712f-d19c-4b2d-b268-f3b799f138f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\apps\mdns">
+      <UniqueIdentifier>{97084b50-08e6-42e6-9746-9e0970f54231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\netif">
+      <UniqueIdentifier>{6560fc86-2a59-4ac7-b7b9-0d7374c83fa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\netif\ppp">
+      <UniqueIdentifier>{c39ee51c-7c87-40c4-881f-3be7d242495e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\netif\ppp\polarssl">
+      <UniqueIdentifier>{a3810d0a-2794-4d3d-8c37-5e085f820d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\Hardware">
+      <UniqueIdentifier>{277ae08d-8366-4a7b-bab7-34b618efd4c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\InterruptHandler">
+      <UniqueIdentifier>{2f1ce65d-56f9-4a39-b3ce-586c3e3f9ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\NativeEventDispatcher">
+      <UniqueIdentifier>{f5596c89-7532-4b65-8ed7-b5d29a653bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\RPC">
+      <UniqueIdentifier>{049c431c-b49d-4497-a3fd-901709643a76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Core\Serialization">
+      <UniqueIdentifier>{6c67c9c7-aa8c-48a3-8c8a-53dcd1f747da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Diagnostics">
+      <UniqueIdentifier>{5744411d-f12d-499f-b972-8ba29a255d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Helpers">
+      <UniqueIdentifier>{64bddbbb-04e0-462e-94ab-823eeac38c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Helpers\Base64">
+      <UniqueIdentifier>{5920e8c5-9fc2-456f-91f1-4618d9a9302b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Helpers\TinyPrintf">
+      <UniqueIdentifier>{ca478bea-4150-4f71-974c-96ee80d608b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Messaging">
+      <UniqueIdentifier>{dcc315cc-2e69-484d-8552-d7c2b745131a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\System.Math">
+      <UniqueIdentifier>{367091f8-ee9b-4744-a08e-1a339185e000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\Startup">
+      <UniqueIdentifier>{3e103014-2398-4901-9012-be7a7465a9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\DeviceInterfaces">
+      <UniqueIdentifier>{2d2fc03f-fbb8-470f-be0c-35140b7abc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\DeviceInterfaces\Networking.Sntp">
+      <UniqueIdentifier>{b07eae7a-38f8-4a4b-b3b2-a42b9c1347a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\DeviceInterfaces\System.Net">
+      <UniqueIdentifier>{ee50aec9-4824-4a7c-b36e-f570660ce611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.ResourceManager">
+      <UniqueIdentifier>{e1bbfa53-bafe-4ef3-bd9e-7a0bd3bf3ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Runtime.Events">
+      <UniqueIdentifier>{a214535f-ae33-4f07-8bb5-e11acdfdf286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.Runtime.Native">
+      <UniqueIdentifier>{3410c13d-5901-4078-938e-f80192abaae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\nanoFramework.System.Collections">
+      <UniqueIdentifier>{a799d8f3-b248-45a1-9b08-f6aefe684f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\AsyncProcCall">
+      <UniqueIdentifier>{53d82e4a-053c-439e-adc8-e26168d515f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\COM">
+      <UniqueIdentifier>{24087c10-5754-47b1-98cf-06672535edc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\COM\sockets">
+      <UniqueIdentifier>{525613a9-a3a7-42af-97b7-45baf5a33bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\COM\sockets\ssl">
+      <UniqueIdentifier>{dcc1bb5c-20af-4bfe-95e2-fcc587c885c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Double">
+      <UniqueIdentifier>{bdd50e14-0d51-4de1-bda2-7dde40c62869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Events">
+      <UniqueIdentifier>{60d05ce4-5105-4ad6-8b34-8de548b89815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Lwip">
+      <UniqueIdentifier>{8db48485-baac-488b-83a0-c401019cd300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Profiler">
+      <UniqueIdentifier>{47a19b02-05df-4688-aaf8-329a5a7a2385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Windows.Devices.SerialCommunication">
+      <UniqueIdentifier>{68f5c557-019d-46e0-aed7-55998e154fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Windows.Storage">
+      <UniqueIdentifier>{d06476fe-340c-4b45-a77f-054ad00fb45c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS">
+      <UniqueIdentifier>{a5b932b2-6c0f-4557-85d8-aefab502fe98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\common">
+      <UniqueIdentifier>{4ea8de23-88e3-4853-ab60-1dddcdb49922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\common\include">
+      <UniqueIdentifier>{629f30e8-a862-4446-997b-adaaa9971ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\common\nanoCLR">
+      <UniqueIdentifier>{5b52dfce-78ec-42e1-bce4-f7a053418449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP">
+      <UniqueIdentifier>{97ebbb38-6ec3-4230-a019-e01f1a61c812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common">
+      <UniqueIdentifier>{064f0734-4ab7-46b1-8a2b-45eb07c83c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\board">
+      <UniqueIdentifier>{9a107640-4929-45c1-80ea-19d45e7822b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\component">
+      <UniqueIdentifier>{9a0048d0-6a9a-4f2d-88d9-90c97ce40143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\component\serial_mananger">
+      <UniqueIdentifier>{dd0157ff-5b5d-46da-9006-f56f97802a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\component\uart">
+      <UniqueIdentifier>{7895e25e-69f0-46e7-94e5-099bdb056982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\device">
+      <UniqueIdentifier>{81957cfc-b359-4c64-8a2a-1f044ba14603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\drivers">
+      <UniqueIdentifier>{3a21506c-ca11-4703-b295-c1585e706034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\drivers\freertos">
+      <UniqueIdentifier>{7ca15511-46d2-4708-99f1-04958d46f42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\startup">
+      <UniqueIdentifier>{26fa2d9b-16c3-412b-bc91-8742bb234d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\xip">
+      <UniqueIdentifier>{970ece73-99e1-4690-8e98-a5cd20987001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\utilities">
+      <UniqueIdentifier>{6eed2c54-b261-4b8d-8f35-34036268af3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc">
+      <UniqueIdentifier>{7df2b7bd-74b3-454d-ad2c-9daf1e99efdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc">
+      <UniqueIdentifier>{b3fee945-5d42-4070-912d-abb1193a10b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\src">
+      <UniqueIdentifier>{9f59176b-ea21-4ff7-a39c-1f5817a0c6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\port">
+      <UniqueIdentifier>{193c11a8-2280-4960-ac35-a7e823a7eaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK">
+      <UniqueIdentifier>{15a438f8-06f0-407c-862e-938c021dd80f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\nanoClr">
+      <UniqueIdentifier>{67698509-f064-465c-a49e-26d0460da55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\nanoClr">
+      <UniqueIdentifier>{ec61ef1c-cb63-4f70-9eb7-a1057329ef54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\nanoClr\nanoFramework.Runtime.Native">
+      <UniqueIdentifier>{e156da02-c6d8-4358-aa8d-1a07ed128426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Devices.Gpio">
+      <UniqueIdentifier>{692b5240-9614-4057-aeb5-38c33addbd7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\include">
+      <UniqueIdentifier>{ede63d4b-ded6-4204-8c93-528c4b7e071c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\fatfs">
+      <UniqueIdentifier>{1228dbdf-f571-49de-a4c6-450ad46dcc10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\LwIP">
+      <UniqueIdentifier>{3244d26a-9a21-486a-803e-d6e83adfaf56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\PAL\Windows.Devices.GPIO">
+      <UniqueIdentifier>{15779b6b-1403-462a-b072-3f86f1a0fab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\include">
+      <UniqueIdentifier>{d19a1245-a158-4b4c-bf89-7996fd880aef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\include\compat">
+      <UniqueIdentifier>{1d420ae7-f6a5-4722-a391-eeb16cef3b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\include\lwip">
+      <UniqueIdentifier>{6e9083d1-a248-45b7-8acf-f4566f20c25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\include\netif">
+      <UniqueIdentifier>{b5506a63-c9dc-4787-afe2-65c23607fdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lwip\src\include\compat\posix">
+      <UniqueIdentifier>{7f7b2a6b-a7f6-4ead-9242-088461e1a05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\src\CLR\CorLib">
+      <UniqueIdentifier>{e58fe94b-61f7-42ed-92ec-982ce3d088f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Storage">
+      <UniqueIdentifier>{4239f8d2-e005-4a0f-a0b0-fb8caa5b6024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Devices.SerialCommunication">
+      <UniqueIdentifier>{6e70dd24-a343-4dc5-94af-7d6c991954c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\hardfault.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\platform_heap.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\targetHAL.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\WireProtocol_ReceiverThread.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\Device_BlockStorage.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\platform_BlockStorage.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\Target_BlockStorage_iMXRTFlashDriver.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\targetHAL_ConfigurationManager.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\WireProtocol_HAL_Interface.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\board.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\clock_config.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\fsl_phy.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\peripherals.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\pin_mux.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_manager.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\component\serial_mananger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_port_uart.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\component\serial_mananger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\uart\lpuart_adapter.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\component\uart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_BlockStorage.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_common.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\system_MIMXRT1062.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\freertos\fsl_lpuart_freertos.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers\freertos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_dmamux.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_edma.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_enet.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_flexspi.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio_ext.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpi2c.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart_edma.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_semc.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_snvs_lp.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_trng.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_usdhc.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_cache.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_clock.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\startup\startup_mimxrt1062.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_str.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\flexspi_nor_flash_ops.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_debug_console.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\fsl_flexspi_nor_boot.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\xip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\evkmimxrt1060_flexspi_nor_config.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\xip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\nanoSupport_CRC32.c">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\WireProtocol\WireProtocol_Message.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\HAL\nanoHAL_ConfigurationManager.c">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\BlockStorage\nanoPAL_BlockStorage.c">
+      <Filter>nf-interpreter\src\PAL\BlockStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1\port.c">
+      <Filter>FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\portable\MemMang\heap_4.c">
+      <Filter>FreeRTOS-Kernel\portable\MemMang</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\queue.c">
+      <Filter>FreeRTOS-Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\stream_buffer.c">
+      <Filter>FreeRTOS-Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\tasks.c">
+      <Filter>FreeRTOS-Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\timers.c">
+      <Filter>FreeRTOS-Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\src\fsl_sd.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\src\fsl_sdmmc_common.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\port\fsl_sdmmc_event.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\port\fsl_sdmmc_host.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\croutine.c">
+      <Filter>FreeRTOS-Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\event_groups.c">
+      <Filter>FreeRTOS-Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\list.c">
+      <Filter>FreeRTOS-Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\WireProtocol\WireProtocol_HAL_Interface.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\WireProtocol\WireProtocol_MonitorCommands.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoClr\WireProtocol_MonitorCommands.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\fatfs\source\ff.c">
+      <Filter>fatfs\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\fatfs\source\ffunicode.c">
+      <Filter>fatfs\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\autoip.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\dhcp.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\etharp.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\icmp.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\igmp.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\ip4.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\ip4_addr.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv4\ip4_frag.c">
+      <Filter>lwip\src\core\ipv4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\dhcp6.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\ethip6.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\icmp6.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\inet6.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\ip6.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\ip6_addr.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\ip6_frag.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\mld6.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ipv6\nd6.c">
+      <Filter>lwip\src\core\ipv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\api\api_lib.c">
+      <Filter>lwip\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\api\err.c">
+      <Filter>lwip\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\api\netbuf.c">
+      <Filter>lwip\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\api\netdb.c">
+      <Filter>lwip\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\api\netifapi.c">
+      <Filter>lwip\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\api\tcpip.c">
+      <Filter>lwip\src\api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\apps\mdns\mdns.c">
+      <Filter>lwip\src\apps\mdns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\apps\sntp\sntp.c">
+      <Filter>lwip\src\apps\sntp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\def.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\dns.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\inet_chksum.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\init.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\ip.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\mem.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\memp.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\netif.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\pbuf.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\raw.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\stats.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\sys.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\tcp.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\tcp_in.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\tcp_out.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\timeouts.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\core\udp.c">
+      <Filter>lwip\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ethernet.c">
+      <Filter>lwip\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\auth.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\ccp.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\chap_ms.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\chap-md5.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\chap-new.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\demand.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\eap.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\ecp.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\eui64.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\fsm.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\ipcp.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\ipv6cp.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\lcp.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\magic.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\mppe.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\multilink.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\ppp.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\pppapi.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\pppcrypt.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\pppoe.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\pppol2tp.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\pppos.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\upap.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\utils.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\vj.c">
+      <Filter>lwip\src\netif\ppp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\polarssl\arc4.c">
+      <Filter>lwip\src\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\polarssl\des.c">
+      <Filter>lwip\src\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\polarssl\md4.c">
+      <Filter>lwip\src\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\polarssl\md5.c">
+      <Filter>lwip\src\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\ppp\polarssl\sha1.c">
+      <Filter>lwip\src\netif\ppp\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\lwip\src\netif\slipif.c">
+      <Filter>lwip\src\netif</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Cache.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Checks.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_DblLinkedList.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Array.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_ArrayList.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_BinaryBlob.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Delegate.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Delegate_List.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Finalizer.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Lock.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_LockRequest.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Node.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Queue.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Stack.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_String.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_Timer.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapBlock_WaitForObject.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_HeapCluster.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_Interop.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_Memory.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_ObjectToEvent_Destination.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_ObjectToEvent_Source.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_RuntimeMemory.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_StackFrame.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_SystemAssembliesTable.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\CLR_RT_UnicodeHelper.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Core.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Execution.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\GarbageCollector.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\GarbageCollector_Compaction.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\GarbageCollector_ComputeReachabilityGraph.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\GarbageCollector_Info.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Interpreter.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Random.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Streams.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\StringTable.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\StringTableData.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Thread.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\TypeSystem.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\TypeSystemLookup.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Various.cpp">
+      <Filter>nf-interpreter\src\CLR\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Hardware\Hardware.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Hardware\Hardware_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\InterruptHandler\InterruptHandler.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\InterruptHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\InterruptHandler\InterruptHandler_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\InterruptHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\NativeEventDispatcher\NativeEventDispatcher.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\NativeEventDispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\NativeEventDispatcher\NativeEventDispatcher_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\NativeEventDispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\RPC\RPC_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\Serialization\BinaryFormatter_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Core\Serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Debugger\Debugger.cpp">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Debugger\Debugger_full.cpp">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Debugger\Debugger_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Diagnostics\Diagnostics_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Diagnostics\Info.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Diagnostics\Profile.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Diagnostics\Profiler.cpp">
+      <Filter>nf-interpreter\src\CLR\Diagnostics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Helpers\Base64\base64.c">
+      <Filter>nf-interpreter\src\CLR\Helpers\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Helpers\TinyPrintf\printf.c">
+      <Filter>nf-interpreter\src\CLR\Helpers\TinyPrintf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Messaging\Messaging.cpp">
+      <Filter>nf-interpreter\src\CLR\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Messaging\Messaging_stub.cpp">
+      <Filter>nf-interpreter\src\CLR\Messaging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Startup\CLRStartup.cpp">
+      <Filter>nf-interpreter\src\CLR\Startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\System.Math\nf_native_system_math.cpp">
+      <Filter>nf-interpreter\src\CLR\System.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\System.Math\nf_native_system_math_System_Math.cpp">
+      <Filter>nf-interpreter\src\CLR\System.Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\WireProtocol\WireProtocol_App_Interface.c">
+      <Filter>nf-interpreter\src\CLR\WireProtocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\Networking.Sntp\nf_networking_sntp_nanoFramework_Networking_Sntp.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\Networking.Sntp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\Networking.Sntp\nf_networking_sntp.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\Networking.Sntp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Net_NetworkInformation_NetworkInterface.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Net_NetworkInformation_Wireless80211Configuration.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Net_NetworkInformation_WirelessAPConfiguration.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Net_Security_CertificateManager.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Net_Security_SslNative.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Net_Sockets_NativeSocket.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Security_Cryptography_X509Certificates_X509Certificate.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native_System_Security_Cryptography_X509Certificates_X509Certificate2.cpp">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\HAL\nanoHAL_SystemInformation.cpp">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\HAL\nanoHAL_Time.cpp">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\HAL\nanoHAL_Watchdog.c">
+      <Filter>nf-interpreter\src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager_nanoFramework_Runtime_Native_ResourceUtility.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager_System_Resources_ResourceManager.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native_nanoFramework_Runtime_Events_EventSink.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native_nanoFramework_Runtime_Events_NativeEventDispatcher.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native_nanoFramework_Runtime_Events_WeakDelegate.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Native\nf_rt_native.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Hardware_SystemInfo.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_ExecutionConstraint.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_GC.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_Power.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_Rtc_stubs.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.System.Collections\nf_system_collections.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.System.Collections\nf_system_collections_System_Collections_Queue.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.System.Collections\nf_system_collections_System_Collections_Stack.cpp">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\AsyncProcCall\Async_stubs.cpp">
+      <Filter>nf-interpreter\src\PAL\AsyncProcCall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\AsyncProcCall\AsyncCompletions.cpp">
+      <Filter>nf-interpreter\src\PAL\AsyncProcCall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\AsyncProcCall\AsyncContinuations.cpp">
+      <Filter>nf-interpreter\src\PAL\AsyncProcCall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\COM_stubs.c">
+      <Filter>nf-interpreter\src\PAL\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\GenericPort_stubs.c">
+      <Filter>nf-interpreter\src\PAL\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\sockets\Sockets_debugger.cpp">
+      <Filter>nf-interpreter\src\PAL\COM\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\sockets\sockets_lwip.cpp">
+      <Filter>nf-interpreter\src\PAL\COM\sockets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\sockets\ssl\ssl_stubs.cpp">
+      <Filter>nf-interpreter\src\PAL\COM\sockets\ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Double\nanoPAL_NativeDouble.cpp">
+      <Filter>nf-interpreter\src\PAL\Double</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Events\nanoPAL_Events_functions.cpp">
+      <Filter>nf-interpreter\src\PAL\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Lwip\lwIP_Sockets.cpp">
+      <Filter>nf-interpreter\src\PAL\Lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Lwip\lwIP_Sockets_functions.cpp">
+      <Filter>nf-interpreter\src\PAL\Lwip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Devices.Gpio\win_dev_gpio_native.cpp">
+      <Filter>nf-interpreter\src\PAL\Windows.Devices.GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Devices.Gpio\win_dev_gpio_native_Windows_Devices_Gpio_GpioController.cpp">
+      <Filter>nf-interpreter\src\PAL\Windows.Devices.GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Devices.Gpio\win_dev_gpio_native_Windows_Devices_Gpio_GpioPin.cpp">
+      <Filter>nf-interpreter\src\PAL\Windows.Devices.GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Devices.SerialCommunication\win_dev_serial_native.cpp">
+      <Filter>nf-interpreter\src\PAL\Windows.Devices.SerialCommunication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Storage\win_storage_native.cpp">
+      <Filter>nf-interpreter\src\PAL\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\nanoCLR\CLR_Startup_Thread.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\nanoCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\nanoCLR\targetPAL_Events.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\nanoCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\nanoCLR\nanoCRT.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\nanoCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\nanoCLR\targetPAL_Time.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\nanoCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\nanoCLR\WireProtocol_App_Interface.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\nanoCLR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\fatfs\diskio.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\fatfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\fatfs\ffsystem.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\fatfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\fatfs\fsl_sd_disk.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\fatfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\LwIP\ethernetif.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\LwIP\nf_api_msg.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\LwIP\nf_lwipthread.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\LwIP\nf_sockets.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\LwIP\nf_sys_arch.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\LwIP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Memory.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\nanoHAL.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Target_Network.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\targetHAL.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\targetHAL_Network.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\targetHAL_Power.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\targetHAL_Time.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\targetRandom.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\nanoFramework.Runtime.Native\nf_rt_native_nanoFramework_Runtime_Native_Rtc.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\nanoFramework.Runtime.Native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Devices.Gpio\cpu_gpio.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Devices.Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Devices.Gpio\win_dev_gpio_native_Windows_Devices_Gpio_GpioChangeCounter.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Devices.Gpio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Devices.SerialCommunication\win_dev_serial_native_Windows_Devices_SerialCommunication_SerialDevice.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Devices.SerialCommunication</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Storage\win_storage_native_Windows_Storage_Devices_SDCard.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Storage\win_storage_native_Windows_Storage_FileIO.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Storage\win_storage_native_Windows_Storage_StorageFile.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Storage\win_storage_native_Windows_Storage_StorageFolder.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\nanoCLR\main.c">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\nanoClr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_windows_devices_serialcommunication_config.cpp">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration\CLR_RT_InteropAssembliesTable.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_AppDomain.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Array.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Attribute.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_BitConverter.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Collections_ArrayList.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Console.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Convert.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_DateTime.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Delegate.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Diagnostics_Debug.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Diagnostics_Debugger.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Double.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Enum.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Exception.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_GC.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Globalization_CultureInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Globalization_DateTimeFormat.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Guid.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_MarshalByRefObject.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_MathInternal.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_MulticastDelegate.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Number.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Object.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Random.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_Assembly.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_Binder.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_ConstructorInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_FieldInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_MemberInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_MethodBase.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_PropertyInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_RuntimeFieldInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Reflection_RuntimeMethodInfo.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Runtime_CompilerServices_RuntimeHelpers.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Runtime_Remoting_RemotingServices.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_RuntimeType.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_String.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Threading_AutoResetEvent.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Threading_Interlocked.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Threading_ManualResetEvent.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Threading_Monitor.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Threading_Thread.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Threading_Timer.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Threading_WaitHandle.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_TimeSpan.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_Type.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_ValueType.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native_System_WeakReference.cpp">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Profiler\nanoPAL_PerformanceCounters_stubs.cpp">
+      <Filter>nf-interpreter\src\PAL\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\nanoPAL_Network_stubs.cpp">
+      <Filter>nf-interpreter\src\PAL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mcu.props">
+      <Filter>nf-interpreter\Device-specific files</Filter>
+    </None>
+    <None Include="ARCH_MIX-nanoClr-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="ARCH_MIX-nanoClr-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\README.md">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </None>
+    <None Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\launch.json">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </None>
+    <None Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\opcode.def">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <LinkerScript Include="Configuration\MIMXRT10xx.ld">
+      <Filter>Configuration</Filter>
+    </LinkerScript>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\TargetPAL_BlockStorage.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\targetPAL_Time.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\WireProtocol_ReceiverThread.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\board.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\clock_config.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\fsl_phy.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\peripherals.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\pin_mux.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\board</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_manager.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\component\serial_mananger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_port_uart.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\component\serial_mananger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\uart\uart.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\component\uart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\platform_target_capabilities.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\Target_BlockStorage_iMXRTFlashDriver.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\Target_Windows_Storage.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\TargetPAL.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\lwipopts.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_BlockStorage.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_lwip_sntp_opts.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_windows_storage_config.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\FreeRTOSConfig.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\MIMXRT1062.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\MIMXRT1062_features.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\system_MIMXRT1062.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\fsl_device_registers.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\freertos\fsl_lpuart_freertos.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers\freertos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_dmamux.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_edma.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_enet.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_flexspi.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio_ext.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_iomuxc.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpi2c.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart_edma.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_semc.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_snvs_lp.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_trng.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_usdhc.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_cache.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_clock.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_debug_console_conf.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_str.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\flexspi_nor_flash_ops.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_debug_console.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\evkmimxrt1060_flexspi_nor_config.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\xip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\fsl_flexspi_nor_boot.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\xip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_ConfigurationManager.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\CPU_GPIO_decl.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_BlockStorage.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\atomic.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\croutine.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\deprecated_definitions.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\event_groups.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\FreeRTOS.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\list.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\message_buffer.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\mpu_prototypes.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\portable.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\projdefs.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\queue.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\semphr.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\StackMacros.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\stack_macros.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\stream_buffer.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\task.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\timers.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1\portmacro.h">
+      <Filter>FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\target_board.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\target_os.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration\target_common.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\mpu_armv7.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\core_cm7.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\mpu_wrappers.h">
+      <Filter>FreeRTOS-Kernel\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_armcc.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_armclang.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_armclang_ltm.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_compiler.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_gcc.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_iccarm.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_version.h">
+      <Filter>CMSIS\Core\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sd.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sdmmc_common.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sdmmc_host.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sdmmc_spec.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\port\fsl_sdmmc_event.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\common\sdmmc\port</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\WireProtocol.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Types.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Debugger\Debugger.h">
+      <Filter>nf-interpreter\src\CLR\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\WireProtocol_MonitorCommands.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Helpers\Base64\base64.h">
+      <Filter>nf-interpreter\src\CLR\Helpers\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Helpers\TinyPrintf\printf.h">
+      <Filter>nf-interpreter\src\CLR\Helpers\TinyPrintf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Startup\CLRStartup.h">
+      <Filter>nf-interpreter\src\CLR\Startup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\System.Math\nf_native_system_math.h">
+      <Filter>nf-interpreter\src\CLR\System.Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\Networking.Sntp\nf_networking_sntp.h">
+      <Filter>nf-interpreter\src\DeviceInterfaces\Networking.Sntp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\DeviceInterfaces\System.Net\sys_net_native.h">
+      <Filter>nf-interpreter\src\DeviceInterfaces\System.Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.ResourceManager\nf_system_resourcemanager.h">
+      <Filter>nf-interpreter\src\nanoFramework.ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Events\nf_rt_events_native.h">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.Runtime.Native\nf_rt_native.h">
+      <Filter>nf-interpreter\src\nanoFramework.Runtime.Native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\nanoFramework.System.Collections\nf_system_collections.h">
+      <Filter>nf-interpreter\src\nanoFramework.System.Collections</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\sockets\sockets_lwip.h">
+      <Filter>nf-interpreter\src\PAL\COM\sockets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\CPU_SPI_decl.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoCRT.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_AsyncProcCalls_decl.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_COM.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_Events.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_GPIO.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_NativeDouble.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_Network.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_PerformanceCounters.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_Sockets.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_Time.h">
+      <Filter>nf-interpreter\src\PAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Lwip\lwIP_Sockets.h">
+      <Filter>nf-interpreter\src\PAL\Lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Devices.Gpio\win_dev_gpio_native.h">
+      <Filter>nf-interpreter\src\PAL\Windows.Devices.GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Devices.SerialCommunication\win_dev_serial_native.h">
+      <Filter>nf-interpreter\src\PAL\Windows.Devices.SerialCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\Windows.Storage\win_storage_native.h">
+      <Filter>nf-interpreter\src\PAL\Windows.Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\nanoCLR\CLR_Startup_Thread.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\nanoCLR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\nanoCLR\targetPAL_Time.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\nanoCLR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\fatfs\fsl_sd_disk.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\fatfs\ffconf.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\fatfs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\LwIP\ethernetif.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\LwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\LwIP\nf_lwipthread.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\LwIP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\targetHAL_Time.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Devices.Gpio\win_dev_gpio_native_target.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Devices.Gpio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Devices.SerialCommunication\win_dev_serial_native_target.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Devices.SerialCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR\Windows.Storage\win_storage_native_target.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\nanoClr\Windows.Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_windows_devices_serialcommunication_config.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\CorLib.h">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\CorLib\corlib_native.h">
+      <Filter>nf-interpreter\src\CLR\CorLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\lwipopts.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\targetHAL.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\targetHAL_Time.h">
+      <Filter>nf-interpreter\targets\FreeRTOS\common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Application.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Checks.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Debugging.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_ErrorCodes.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Hardware.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Interop.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Messaging.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_ParseOptions.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_PlatformDef.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Profiling.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Runtime.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Runtime__HeapBlock.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Runtime__Serialization.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoCLR_Types.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoPackStruct.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoSupport.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nanoWeak.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\nf_errors_exceptions.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\WireProtocol_App_Interface.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\WireProtocol_HAL_Interface.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\WireProtocol_Message.h">
+      <Filter>nf-interpreter\src\CLR\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Network.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Power.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_ReleaseInfo.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Spi.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Time.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_v2.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Watchdog.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Windows_Storage.h">
+      <Filter>nf-interpreter\src\HAL\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\fatfs\source\ff.h">
+      <Filter>fatfs\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\fatfs\source\diskio.h">
+      <Filter>fatfs\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\compat\posix\netdb.h">
+      <Filter>lwip\src\include\compat\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\acd.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\altcp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\api.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\arch.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\autoip.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\debug.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\def.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\dhcp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\dhcp6.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\dns.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\err.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\errno.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\etharp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ethip6.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\icmp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\icmp6.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\igmp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\inet.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\inet_chksum.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\init.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip_addr.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip4.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip4_addr.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip4_frag.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip6.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip6_addr.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip6_frag.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\ip6_zone.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\mem.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\memp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\mld6.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\nd6.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\netbuf.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\netdb.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\netif.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\netifapi.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\opt.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\pbuf.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\raw.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\sio.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\snmp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\sockets.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\stats.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\sys.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\tcp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\tcpbase.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\tcpip.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\timeouts.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\lwip\udp.h">
+      <Filter>lwip\src\include\lwip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\netif\etharp.h">
+      <Filter>lwip\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\netif\ethernet.h">
+      <Filter>lwip\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\lwip\src\include\netif\slipif.h">
+      <Filter>lwip\src\include\netif</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\sockets\ssl\ssl_types.h">
+      <Filter>nf-interpreter\src\PAL\COM\sockets\ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\COM\sockets\ssl\ssl.h">
+      <Filter>nf-interpreter\src\PAL\COM\sockets\ssl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+[submodule "ExternalRepositories/nf-interpreter"]
+	path = ExternalRepositories/nf-interpreter
+	url = http://github.com/nanoframework/nf-interpreter
+[submodule ".ExternalRepositories/ChibiOS"]
+	path = .ExternalRepositories/ChibiOS
+	url = http://github.com/Chibios/Chibios.git
+[submodule "ExternalRepositories/FreeRTOS-Kernel"]
+	path = ExternalRepositories/FreeRTOS-Kernel
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "ExternalRepositories/lwip"]
+	path = ExternalRepositories/lwip
+	url = https://git.savannah.nongnu.org/git/lwip.git
+[submodule "ExternalRepositories/mbedtls"]
+	path = ExternalRepositories/mbedtls
+	url = https://github.com/nanoframework/mbedtls
+[submodule "ExternalRepositories/fatfs"]
+	path = ExternalRepositories/fatfs
+	url = https://github.com/abbrev/fatfs.git
+[submodule "ExternalRepositories/CMSIS_5"]
+	path = ExternalRepositories/CMSIS_5
+	url = https://github.com/ARM-software/CMSIS_5.git
+[submodule "ExternalRepositories/ChibiOS"]
+	path = ExternalRepositories/ChibiOS
+	url = https://github.com/ChibiOS/ChibiOS.git

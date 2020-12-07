@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{2801D7D4-0949-4CBC-A65A-4067359924E6}</ProjectGuid>
+    <BSP_ID>com.visualgdb.bsp.in-place</BSP_ID>
+    <BSP_VERSION>1.0</BSP_VERSION>
+    <InPlaceBSPSubdir>BSP</InPlaceBSPSubdir>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>9.3.1/9.2.0/r2</ToolchainVersion>
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+    <ToolchainVersion>9.3.1/9.2.0/r2</ToolchainVersion>
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <CPPLanguageStandard>CPP11</CPPLanguageStandard>
+      <AdditionalIncludeDirectories>Configuration;..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include;..\ExternalRepositories\FreeRTOS-Kernel\include;..\ExternalRepositories\FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1;..\ExternalRepositories\nf-Interpreter\src\CLR\Core;..\ExternalRepositories\nf-Interpreter\src\CLR\Debugger;..\ExternalRepositories\nf-Interpreter\src\CLR\Include;..\ExternalRepositories\nf-Interpreter\src\CLR\Runtime.NativeFreeRTOS_Source\include;..\ExternalRepositories\nf-Interpreter\src\HAL\Include;..\ExternalRepositories\nf-Interpreter\src\PAL\Include;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\nanoBooter;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\uart;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\freertos;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\port;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include;..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoCLR;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>TARGET_HAS_NANOBOOTER;DEBUG=1;PLATFORM_ARM;NANOCLR_ENABLE_SOURCELEVELDEBUGGING;TRACE_MASK=0;WP_IMPLEMENTS_CRC32;MIMXRT1052_SERIES;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WcharSize>Short</WcharSize>
+      <Optimization>Og</Optimization>
+      <OmitFramePointer>true</OmitFramePointer>
+      <AdditionalCOptions>-nostdlib</AdditionalCOptions>
+      <AdditionalCPPOptions>-nostdlib</AdditionalCPPOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <LibrarySearchDirectories>;%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
+      <AdditionalLibraryNames>;%(Link.AdditionalLibraryNames)</AdditionalLibraryNames>
+      <LinkerScript>Configuration\MIMXRT10xx.ld</LinkerScript>
+      <GenerateMapFile>true</GenerateMapFile>
+      <CustomPostLinkTool>$(SolutionDir)postbuild.bat</CustomPostLinkTool>
+      <CustomPostLinkArguments>%(OutputFile) $(OutputPath)</CustomPostLinkArguments>
+      <PrintMemoryUsage>true</PrintMemoryUsage>
+      <PreprocessorDefinitionsForLinkerScript>-nostartfiles --sort-section=alignment  -mabi=aapcs</PreprocessorDefinitionsForLinkerScript>
+    </Link>
+    <ToolchainSettingsContainer>
+      <InstructionSet>THUMB</InstructionSet>
+    </ToolchainSettingsContainer>
+    <ToolchainSettingsContainer>
+      <FloatABI>hard</FloatABI>
+    </ToolchainSettingsContainer>
+    <ToolchainSettingsContainer>
+      <ARMFPU>fpv5-sp-d16</ARMFPU>
+    </ToolchainSettingsContainer>
+    <ToolchainSettingsContainer>
+      <ARMCPU>cortex-m7</ARMCPU>
+    </ToolchainSettingsContainer>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <CPPLanguageStandard>GNUPP1Z</CPPLanguageStandard>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\croutine.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\event_groups.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\list.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1\port.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\portable\MemMang\heap_4.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\queue.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\stream_buffer.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\tasks.c" />
+    <ClCompile Include="..\ExternalRepositories\FreeRTOS-Kernel\timers.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Core\nanoSupport_CRC32.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\WireProtocol\WireProtocol_HAL_Interface.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">$(InputDir)\$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\WireProtocol\WireProtocol_Message.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\CLR\WireProtocol\WireProtocol_MonitorCommands.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">$(InputDir)\$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\HAL\nanoHAL_ConfigurationManager.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\src\PAL\BlockStorage\nanoPAL_BlockStorage.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\hardfault.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\platform_heap.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\targetHAL.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\targetHAL_Time.cpp" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\WireProtocol_ReceiverThread.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\board.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\clock_config.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\fsl_phy.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\peripherals.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\pin_mux.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_manager.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_port_uart.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\uart\lpuart_adapter.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\system_MIMXRT1062.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\Device_BlockStorage.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\freertos\fsl_lpuart_freertos.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_cache.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_clock.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_dmamux.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_edma.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_enet.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_flexspi.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio_ext.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpi2c.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart_edma.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_semc.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_snvs_lp.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_trng.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_usdhc.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\platform_BlockStorage.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\port\fsl_sdmmc_event.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\port\fsl_sdmmc_host.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\src\fsl_sd.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\src\fsl_sdmmc_common.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\startup\startup_mimxrt1062.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\targetHAL_ConfigurationManager.cpp" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\Target_BlockStorage_iMXRTFlashDriver.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\flexspi_nor_flash_ops.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_debug_console.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_str.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\WireProtocol_HAL_Interface.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\evkmimxrt1060_flexspi_nor_config.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\fsl_flexspi_nor_boot.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoBooter\WireProtocol_App_Interface.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">$(InputDir)\$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\nanoBooter\WireProtocol_MonitorCommands.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\nanoBooter\main.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_BlockStorage.c" />
+    <ClCompile Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_common.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\launch.json" />
+    <None Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\README.md" />
+    <None Include="ARCH_MIX-nanoBooter-Debug.vgdbsettings" />
+    <None Include="ARCH_MIX-nanoBooter-Release.vgdbsettings" />
+    <None Include="mcu.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="MCU.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <LinkerScript Include="Configuration\MIMXRT10xx.ld" />
+    <LinkerScript Include="MIMXRT1052xxxxx_flexspi_nor_sdram.ld" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_armcc.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_armclang.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_armclang_ltm.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_compiler.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_gcc.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_iccarm.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\cmsis_version.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\core_cm7.h" />
+    <ClInclude Include="..\ExternalRepositories\CMSIS_5\CMSIS\Core\Include\mpu_armv7.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\atomic.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\croutine.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\deprecated_definitions.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\event_groups.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\FreeRTOS.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\list.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\message_buffer.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\mpu_prototypes.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\mpu_wrappers.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\portable.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\projdefs.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\queue.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\semphr.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\StackMacros.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\stack_macros.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\stream_buffer.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\task.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\include\timers.h" />
+    <ClInclude Include="..\ExternalRepositories\FreeRTOS-Kernel\portable\GCC\ARM_CM7\r0p1\portmacro.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Debugger\Debugger.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\WireProtocol.h">
+      <DeploymentContent>true</DeploymentContent>
+    </ClInclude>
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\CLR\Include\WireProtocol_MonitorCommands.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_ConfigurationManager.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\HAL\Include\nanoHAL_Types.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\CPU_GPIO_decl.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\src\PAL\Include\nanoPAL_BlockStorage.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\TargetPAL_BlockStorage.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\targetPAL_Time.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\common\include\WireProtocol_ReceiverThread.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\board.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\clock_config.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\fsl_phy.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\peripherals.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\board\pin_mux.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_manager.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\serial_manager\serial_port_uart.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\component\uart\uart.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\fsl_device_registers.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\MIMXRT1062.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\MIMXRT1062_features.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\device\system_MIMXRT1062.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\freertos\fsl_lpuart_freertos.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_cache.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_clock.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_dmamux.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_edma.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_enet.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_flexspi.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_gpio_ext.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_iomuxc.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpi2c.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_lpuart_edma.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_semc.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_snvs_lp.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_trng.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\drivers\fsl_usdhc.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sd.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sdmmc_common.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sdmmc_host.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\inc\fsl_sdmmc_spec.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\sdmmc\port\fsl_sdmmc_event.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\flexspi_nor_flash_ops.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_debug_console.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_debug_console_conf.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\utilities\fsl_str.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\evkmimxrt1060_flexspi_nor_config.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\common\xip\fsl_flexspi_nor_boot.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\platform_target_capabilities.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\TargetPAL.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\Target_BlockStorage_iMXRTFlashDriver.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\include\Target_Windows_Storage.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\FreeRTOSConfig.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\lwipopts.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_BlockStorage.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_lwip_sntp_opts.h" />
+    <ClInclude Include="..\ExternalRepositories\nf-Interpreter\targets\FreeRTOS\NXP\NXP_MIMXRT1060_EVK\target_windows_storage_config.h" />
+    <ClInclude Include="Configuration\target_board.h" />
+    <ClInclude Include="Configuration\target_common.h" />
+    <ClInclude Include="Configuration\target_os.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
